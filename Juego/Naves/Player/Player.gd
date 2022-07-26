@@ -118,5 +118,5 @@ func _on_AnimationPlayer_animation_finished(anim_name: String)->void:
 		controlador_estados(ESTADO.VIVO)
 		
 
-Eventos.emit_signal("nave_destruida", global_position, 3)	
+##Eventos.emit_signal("nave_destruida", global_position, 3)	
 
